@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="center-flex bg-dark" id="navbar">
+            <nav class="navMenu ">
+                <a href="index.html">Home</a>
+                <a href="submissions.html">Games</a>
+                <a href="rules.html">Rules</a>
+                <a href="index.html#contact">Contact</a>
+                <div class="dot"></div>
+            </nav>
+        </div>
+    </header>
+    <div class="center-flex">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg" alt="rover" />
+                </div>
+                <div class="center-flex"><h2 style="color: #fff;">Title of the game</h2></div>
+                <div class="card-body">
+                    <span class="tag tag-teal">Description</span>
+                    <p>
+                        Why is the Tesla Cybertruck designed the way it
+                        is?
+                    </p>
+                    <span class="tag tag-purple">Requirements</span>
+                    <p>
+                        Do some stuff for the game to work
+                    </p>
+
+                </div>
+                <button class="noselect" style="margin : 0px 30px 30px 20px;">Download</button>
+                <button class="noselect" style="margin : 0px 30px 30px 20px;">Rate</button>
+
+            </div>
+        
+        </div>
+    </div>
+    
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+        .container {
+            display: flex;
+            
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .card {
+            margin: 10px;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            max-width: 1080px;
+        }
+        .card-header img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            min-height: 250px;
+        }
+
+        .card-body p {
+            color: #fff;
+            font-size: large;
+            margin: 0 0 40px;
+        }
+    </style>
+</body>
+</html>
